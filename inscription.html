@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/normal.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Inscription</title>
+  </head>
+  <body class="insc">
+    <main class="inscri-container">
+      <header>Inscription</header>
+      <fieldset>
+        <legend>Inscription</legend>
+        <form action="">
+          <div class="column">
+            <div class="input-box">
+              <label>Nom</label>
+              <input type="text" placeholder="enter your name" />
+            </div>
+            <div class="input-box">
+              <label>Prenom</label>
+              <input type="text" placeholder="enter your name" />
+            </div>
+          </div>
+          <div class="input-box">
+            <label>NCIN:</label>
+            <input type="text" placeholder="enter NCIN" />
+          </div>
+          <div class="input-box">
+            <label>Adresse Email</label>
+            <input type="text" placeholder="enter your Email adress" />
+          </div>
+          <div class="column">
+            <div class="input-box">
+              <label>Tel</label>
+              <input type="number" placeholder="enter your name" />
+            </div>
+            <div class="input-box">
+              <label>Prenom</label>
+              <input type="date" placeholder="enter your name" />
+            </div>
+          </div>
+          <div class="gender-box">
+            <h4 style="color: var(--primary);">Gender</h4>
+            <div class="gender-option">
+              <div class="gender">
+                <input type="radio" id="check-male" name="gender" />
+                <label for="check-male">Male</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check" name="gender" />
+                <label for="check">female</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-box adress">
+            <h2 style="color: var(--primary)">Adresse:</h2>
+            <div class="column">
+              <div class="select-box">
+                <select>
+                  <option hidden>Country</option>
+                  <option>jandouba</option>
+                  <option>Gabes</option>
+                  <option>Ben Arous</option>
+                  <option>tunis</option>
+                  <option>Ben Arous</option>
+                </select>
+              </div>
+              <input type="text" placeholder="enter your city" />
+            </div>
+            <input type="text" placeholder="enter code postal" />
+          </div>
+          <button>submit</button>
+        </form>
+      </fieldset>
+    </main>
+  </body>
+</html>
