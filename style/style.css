@@ -563,6 +563,7 @@ form h2 {
   border: none;
   font-size: 1rem;
   color: #707070;
+  background-color: #fff;
 }
 form :where(.gender input, .gender label) {
   cursor: pointer;
@@ -593,7 +594,7 @@ form button:active {
 /* end inscription */
 /* start footer */
 .footer {
-  background-color: #191919;
+  background-color: var(--text);
   padding: 70px 0 0;
 }
 @media (max-width: 767px) {
